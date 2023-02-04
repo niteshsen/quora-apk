@@ -1,0 +1,62 @@
+.leftnotifirst{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    font-weight: 600;
+    font-size: 12px;
+    position: sticky;
+    top: 90px;
+    height: 500px;
+    height: calc(800px-320px) !important;
+}
+
+.leftbodysecond{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: calc(800px-320px) !important;
+}
+
+.filter{
+   padding: 8px;
+   border-bottom: 1px solid rgb(210, 209, 209);
+   padding-left: 15px;
+   color: rgb(40, 38, 38);
+   margin-bottom: 5px;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+.allNoti{
+    background-color: #f8e9e9;
+    color: rgb(163, 7, 7);
+    padding: 6px 6px 6px 15px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.stories{
+    border-radius: 2px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    padding: 6px 6px 6px 15px;
+    color: grey;
+}
+
+.spacesex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 6px 6px 6px 15px;
+    color: grey;
+}
+
+.spacesex .one{
+    padding-right: 15px;
+}
+
+.stories:hover, .spacesex:hover{
+    background-color: #f2f2f2;
+}
+

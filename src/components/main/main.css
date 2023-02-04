@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 90px auto;
+}

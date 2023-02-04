@@ -1,0 +1,231 @@
+:root{
+    --quora:#989898;
+   
+    --weight: 100
+    
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border :1px solid #e2e2e2;
+    box-shadow: 0  1px 10px 1px rgba(0,0,0,.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;  
+    height: 32px; 
+}
+
+header .header-compenent {
+    max-width: 1090px;
+    margin: auto;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;  
+
+} 
+
+
+header .quoraLogo{
+    width: 88px; 
+}
+
+header .quoraLogo img{
+    width: 100%;
+} 
+
+.home, .Link , .boxline .Link , .spaces .Link,
+.notification .Link ,.earth .Link{
+    color: var(--quora);
+    font-weight: var(--weight);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.profile{
+    color: var(--quora);
+}
+
+.home .Link, .profile .Link, .boxline .Link, .spaces .Link, .notification .Link, .earth .Link {
+    color: rgb(123, 122, 122);
+    display: flex;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+}
+ .home .again, .profile .onActive, .boxline .onActive , .spaces .onActive, .notification .onActive, .earth .onAactive{
+    color:red;
+    border-bottom: 3px solid red;
+}
+
+
+
+.home .Link:hover, .profile .Link:hover, .boxline .Link:hover, .spaces .Link:hover,  
+.notification .Link:hover, .earth .Link:hover{
+    background-color: rgb(246, 245, 245);
+    color:  rgb(170, 169, 169);
+}
+
+
+/* Profile css */
+header .profile-logo{
+    width: 25px; 
+    border-radius: 50%;
+   
+}
+
+
+
+header .profile-logo img{
+    width: 100%;
+    aspect-ratio: 1;
+    min-width: 15px;
+    border-radius: 50%;
+}
+
+/* Search bar css */
+header .input{
+    background-color: #fff;
+    display: flex;
+    border :1px solid #e2e2e2;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+    text-align: left;
+    border-radius: 3px;
+    width: 320px;
+    padding: 2px;
+    color:	#D3D3D3;
+}
+
+.willSee{
+    visibility: hidden;
+    
+}
+header .input:hover{
+    border-color: blue;
+}
+
+header .input input{
+   background: #fff;
+   border:none;
+   outline: none;
+   /* color:	#D3D3D3 */
+}
+
+header .input input::placeholder{
+    color: #989292 ;
+    
+}
+
+
+header .input .search{
+    font-size: 20px;
+    text-align: center;
+
+} 
+
+/* // try-quora */
+
+
+
+
+
+
+
+
+
+
+
+.addQuora{
+   background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    padding: 8px;
+    border-radius: 50px;  
+    border :1px solid #e2e2e2;
+    text-align: left;
+    margin-right: 10px;
+   
+}
+.addQuora:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.addQuora  .Link {
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;  
+    color:rgb(117, 115, 115);
+    word-spacing: 1px;
+}
+
+
+header .adding{
+    outline: none;
+    text-decoration: none;
+}
+
+.addPoint{
+   display: flex;
+   align-items: center;
+   font-size: 13px;
+   background-color: rgb(205, 13, 13);
+   color: rgb(249, 249, 249);
+   width: 130px;
+   padding: 6px;
+   border-radius: 50px;
+   justify-content: space-around;
+   font-weight: 600;
+   word-spacing: 1px;
+}
+
+.addPoint .adding{
+    color: white;
+}
+
+
+/* Body css ✍️  */
+
+
+
+
+
+
+
+.mid-body{
+    margin-top: 80px;
+    width: 100%;
+    padding-left: 8px;
+   
+
+    
+} 
+
+.mid-body .inmid{
+    margin: auto;
+    max-width: 1090px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+@media screen and (max-width: 880px) {
+    header .input{
+        display: none;
+    }
+    .willSee{
+        visibility: visible;
+    
+    }
+    
+}

@@ -1,0 +1,77 @@
+
+
+.leftmain-body{
+   display: flex;
+   flex-direction: column;
+
+   max-width: 200px;
+   color: grey;
+   position: sticky;
+   top: 90px;
+   height: 500px;
+   height: calc(100vh-260px) !important;
+}
+
+
+ .leftmain-second{
+   display: flex;
+   flex-direction: column;
+   /* width: 100%; */
+   overflow-y: scroll;
+   /* height: calc(100vh-250px) !important; */
+}
+
+.leftmain-second::-webkit-scrollbar{
+   width: 7px; 
+}
+.leftmain-second::-webkit-scrollbar-track{
+   background: #dddddd;
+}
+.leftmain-second::-webkit-scrollbar-thumb{
+   background: #00336c;
+}
+/* 1st part start from here */
+
+
+.CreateSpace{
+  display: flex;
+  background-color: #eceded;
+  align-items: center;
+  gap: 13px;
+  padding: 4px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.CreateSpace:hover, .unboxing:hover{
+   background-color: #e7e7e7;
+}
+.spaceX, .Jee{
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.plus{
+   /* background-color: #e6e7e8; */
+   padding: 3px 8px 3px 8px;
+   border-radius: 20px;
+   background-color: #e6e7e8;
+   
+}
+/* 1st pard ends here */
+
+
+.unboxing{
+   display: flex;
+   margin-bottom: 7px;
+   align-items: center;
+   gap: 13px;
+   padding: 4px;
+   border-radius: 3px;
+ }
+
+
+ .JEE{
+   width: 30px;
+   height: 30px;
+   border-radius: 5px;
+ }
